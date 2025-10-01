@@ -1,0 +1,22 @@
+#2)	Написати програму тестування функцій списків таких як: 
+#extend(), append(), insert(id, val), remove(val), clear(), sort(), reverse(), copy()
+def testing():
+    list = ["A", "B", "C"]
+    print("Початковий список:", list)
+    list.append("D")
+    print("append:", list)
+    list.extend(["E", "F"])
+    print("extend:", list)
+    list.insert(1, "X")
+    print("insert:", list)
+    list.remove("B")
+    print("remove:", list)
+    copy_list = list.copy()
+    print("Копія списку:", copy_list)
+    list.sort()
+    print("sort:", list)
+    list.reverse()
+    print("reverse:", list)
+    list.clear()
+    print("clear:", list)
+testing()
